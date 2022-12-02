@@ -1,7 +1,10 @@
+import React from "react";
+import AdviceContainer from "./AdviceContainer";
+
 function App() {
   return (
     <div className="main-container">
-      <h1></h1>
+      <AdviceContainer />
     </div>
   );
 }
