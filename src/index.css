@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./Images/page-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    
+}
