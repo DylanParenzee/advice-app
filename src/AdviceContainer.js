@@ -9,6 +9,9 @@ const AdviceContainer = () => {
       .then((data) => {
         setAdviceText(data.slip.advice);
         console.log(data.slip);
+      })
+      .catch((err) => {
+        setAdviceText("Sorry, unable to fetch quote at this time");
       });
   };
 
@@ -22,7 +25,6 @@ const AdviceContainer = () => {
       <div className="advice-text-container">
         <span className="advice-text">{adviceText}</span>
       </div>
-
       <button onClick={handleSubmit} className="btn">
         Give Me Advice!
       </button>
